@@ -25,3 +25,7 @@ h1 {
     transform: rotate(359deg);
   }
 }
+
+body {
+  background-color: rgb(191, 198, 198);
+}
