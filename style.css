@@ -1,0 +1,27 @@
+h1 {
+  text-decoration: underline;
+  color: red;
+}
+
+.dog {
+  border-radius: 1000px;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  animation: rotation 8s infinite linear;
+}
+
+.animals {
+  width: 300px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
