@@ -29,3 +29,15 @@ h1 {
 body {
   background-color: rgb(191, 198, 198);
 }
+
+.nav {
+  margin-left: auto;
+  display: block;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: white;
+}
